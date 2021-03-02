@@ -1,0 +1,23 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.inputs {
+	display: block;
+	margin: 20px;
+	padding: 4px;
+	border-radius: 6px;
+}
+.label {
+	font-size: 20px;
+	text-align: center;
+	color: rgb(1, 72, 138);
+}
+.submit {
+	display: block;
+	margin: 20px;
+	padding: 5px 25px;
+	border-radius: 6px;
+	background-color: rgb(1, 72, 138);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}

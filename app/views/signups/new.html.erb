@@ -1,0 +1,9 @@
+<%= form_for(@signup) do |f|%>
+    <%= f.label "Sign Up", :class=> "label" %>
+    <%= f.label "first name"%>
+    <%= f.text_area :firstname, :class=> "inputs" %>
+    <%= f.text_area :lastname, :class=> "inputs" %>
+    <%= f.text_area :email, :class=> "inputs" %>
+    <%= f.text_area :password, :class=> "inputs" %>
+    <%= f.submit "Signup", :class=> "submit" %>
+<%end%>
